@@ -28,7 +28,13 @@
         .staggerFromTo(".st0subsl", 0.4, {opacity:0, y: 50}, {opacity:1, y: 0}, 0.05, "-=0.2")
 
 
-
+        .to("#circle", 0, {animation: "none"}, "+=0.5")
+        .to("#circle", 0, {animation: "undraw 0.5s ease-out forwards"})
+        .to("#star", 0.3, {opacity: 0}, "+=0.1")
+        .to("#packs", 0.8, { scale: 0.3, y: 450, ease: Back.easeOut.config(1.4) }, "-=0.3")
+        .to("#circle", 0, {animation: "none"})
+        .from("#link", 0.8, { scale: 0.3, x: 200, ease: Back.easeOut.config(1.4) }, "-=0.6")
+        .from("#qr", 0.8, { scale: 0.3, opacity: 0 }, "-=0.6")
 
 
 
@@ -352,7 +358,14 @@
         </div>
 
         
-
+        <div id="link" class="el">
+          <img src="link.svg" />
+        </div>
+        
+        <div id="qr" class="el">
+          <img src="qr.svg" />
+        </div>
+        
         <div id="schirm"></div> 
       </div>
     </a>

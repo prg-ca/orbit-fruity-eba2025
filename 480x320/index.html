@@ -20,15 +20,14 @@
         .to("#circle", 0, {animation: "draw 0.8s ease-out forwards"}, "-=0.24")
         .staggerFromTo(".st0txt", 0.4, {opacity:0, y: 50}, {opacity:1, y: 0}, 0.1, "-=1")
         .staggerFromTo(".st1txt", 0.3, {opacity:0, y: 50}, {opacity:1, y: 0}, 0.04, "-=0.7")
-        .from("#tropical0", 0.7, { scale: 0.5, opacity: 0, x: -60, y: -50, ease: Back.easeOut.config(1.2) }, "-=0.3")
         .from(".st1txt2", 0.7, { scale: 0.5, opacity: 0, x: -120, ease: Back.easeOut.config(1.2) }, "-=0.2")
         .from("#logos_cont", 0.6, {  width: 0 }, "-=0.4")
         .staggerFromTo(".st0subsl", 0.4, {opacity:0, y: 50}, {opacity:1, y: 0}, 0.05, "-=0.2")
-
+        .from("#link", 0.8, { scale: 0.3, x: -200, ease: Back.easeOut.config(1.4) }, "-=0.6")
+        .from("#qr", 0.8, { scale: 0.3, opacity: 0 }, "-=0.6")
         .to("#circle", 0, {animation: "none"}, "+=0.5")
         .to("#circle", 0, {animation: "undraw 0.5s ease-out forwards"})
         .to("#star", 0.3, {opacity: 0}, "+=0.1")
-        .to("#tropical0", 0.5, { scale: 0.5, opacity: 0, x: -60, y: -50, ease: Back.easeOut.config(1.4) }, "-=0.3")
         .to("#packs", 0.8, { scale: 0.3, y: 250, ease: Back.easeOut.config(1.4) }, "-=0.3")
         .to("#circle", 0, {animation: "none"})
 
@@ -245,9 +244,7 @@
           </g>
           </svg>
       </div>
-      <div id="tropical0" class="el">
-        <img src="tropical0.png" />
-      </div>
+
       <div id="packs" class="el">
         <img src="packs.png" />
       </div>
@@ -362,7 +359,13 @@
 </svg>
 
         </div>
-
+        <div id="link" class="el">
+          <img src="link.svg" />
+        </div>
+        
+        <div id="qr" class="el">
+          <img src="qr.svg" />
+        </div>
         
 
         <div id="schirm"></div> 

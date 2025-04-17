@@ -13,8 +13,8 @@ body * {
 
 .container {
   position: absolute;
-  width: 320px;
-  height: 480px;
+  width: 300px;
+  height: 500px;
   top: 0;
   left: 0;
   z-index: 100;
@@ -42,10 +42,10 @@ img {
 }
 
 #circle_cont {
-  width: 164px;
-  height: 164px;
-  left: 85px;
-  top: 252px;
+  width: 190px;
+  height: 190px;
+  left: 65px;
+  top: 188px;
   /* outline: 1px yellow solid; */
   
 
@@ -89,68 +89,81 @@ img {
 
 #droplet {
   width: 276px;
-  left: 23px;
-  top: -88px;
+  left: 13px;
+  top: -84px;
 }
 
 #txt {
   width: 218px;
-  left: 49px;
-  top: 10px;
+  left: 39px;
+  top: 14px;
   /* outline: 1px yellow solid; */
 }
 #packs {
-  width: 173px;
-  left: 72px;
-  top: 264px;
+  width: 203px;
+  left: 49px;
+  top: 212px;
 }
 
 #male {
-  width: 161px;
-  left: 96px;
-  top: 229px;
+  width: 189px;
+  left: 78px;
+  top: 160px;
 }
 #tropical0 {
-  width: 49px;
-  left: 195px;
-  top: 389px;
+  width: 56px;
+  left: 186px;
+  top: 400px;
 }
 #tropical {
-  width: 72px;
-  left: 49px;
-  top: 414px; 
+  width: 84px;
+  left: 24px;
+  top: 375px; 
 }
 #tropical2 {
-  width: 72px;
-  left: 190px;
-  top: 414px;
+  width: 84px;
+  left: 187px;
+  top: 379px;
   transform: rotate(-127deg);
 }
 
 #logos_cont {
-  width: 154px;
-  left: 91px;
-  top: 156px;
+  width: 81px;
+  left: 210px;
+  top: 145px;
   overflow: hidden;
   /* outline: 1px yellow solid; */
 }
 #logos {
-  width: 154px;
+  width: 81px;
   left: 0px;
   top: 0px;
 }
 
 #subslogan {
-  width: 96px;
-  left: 121px;
-  top: 211px;
+  width: 50px;
+  left: 241px;
+  top: 466px;
   /* outline: 1px yellow solid; */
 }
 
+#qr {
+  width: 79px;
+  left: 158px;
+  top: 463px;
+}
+
+#link {
+  width: 138px;
+  left: 11px;
+  top: 466px;
+}
+
+
 #schirm {
   position: absolute;
-  width: 320px;
-  height: 480px;
+  width: 300px;
+  height: 500px;
   top: 0;
   left: 0;
   background-color: #00b6ed;

@@ -102,7 +102,7 @@ img {
 #packs {
   width: 141px;
   left: 151px;
-  top: 73px;
+  top: 81px;
 }
 
 #male {
@@ -116,14 +116,14 @@ img {
   top: 179px;
 }
 #tropical {
-  width: 58px;
-  left: 135px;
-  top: 195px;
+  width: 54px;
+  left: 137px;
+  top: 197px;
 }
 #tropical2 {
-  width: 58px;
-  left: 243px;
-  top: 197px;
+  width: 54px;
+  left: 241px;
+  top: 200px;
   transform: rotate(-127deg);
 }
 
@@ -145,6 +145,18 @@ img {
   left: 63px;
   top: 163px;
   /* outline: 1px yellow solid; */
+}
+
+#link {
+  width: 111px;
+  left: 13px;
+  top: 196px;
+}
+
+#qr {
+  width: 80px;
+  left: 13px;
+  top: 218px;
 }
 
 #schirm {

@@ -90,19 +90,19 @@ img {
 #droplet {
   width: 237px;
   left: 10px;
-  top: -13px;
+  top: -46px;
 }
 
 #txt {
   width: 193px;
   left: 30px;
-  top: 42px;
+  top: 19px;
   /* outline: 1px yellow solid; */
 }
 #packs {
-  width: 202px;
-  left: 248px;
-  top: 56px;
+  width: 212px;
+  left: 243px;
+  top: 65px;
 }
 
 #male {
@@ -130,7 +130,7 @@ img {
 #logos_cont {
   width: 152px;
   left: 63px;
-  top: 205px;
+  top: 165px;
   overflow: hidden;
   /* outline: 1px yellow solid; */
 }
@@ -143,9 +143,22 @@ img {
 #subslogan {
   width: 94px;
   left: 94px;
-  top: 260px;
+  top: 220px;
   /* outline: 1px yellow solid; */
 }
+
+#qr {
+  width: 100px;
+  left: 19px;
+  top: 275px;
+}
+
+#link {
+  width: 135px;
+  left: 19px;
+  top: 250px;
+}
+
 
 #schirm {
   position: absolute;

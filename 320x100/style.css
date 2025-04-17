@@ -102,7 +102,7 @@ img {
 #packs {
   width: 75px;
   left: 146px;
-  top: 11px;
+  top: 18px;
 }
 
 #male {
@@ -130,7 +130,7 @@ img {
 #logos_cont {
   width: 83px;
   left: 230px;
-  top: 28px;
+  top: 10px;
   overflow: hidden;
   /* outline: 1px yellow solid; */
 }
@@ -143,7 +143,19 @@ img {
 #subslogan {
   width: 52px;
   left: 247px;
-  top: 58px;
+  top: 40px;
+  /* outline: 1px yellow solid; */
+}
+#qr {
+  width: 76px;
+  left: 237px;
+  top: 72px;
+  /* outline: 1px yellow solid; */
+}
+#link {
+  width: 74px;
+  left: 238px;
+  top: 54px;
   /* outline: 1px yellow solid; */
 }
 

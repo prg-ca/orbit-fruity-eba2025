@@ -42,10 +42,10 @@ img {
 }
 
 #circle_cont {
-  width: 137px;
-  height: 137px;
-  left: 57px;
-  top: 206px;
+  width: 152px;
+  height: 152px;
+  left: 52px;
+  top: 150px;
   /* outline: 1px yellow solid; */
   
 
@@ -95,20 +95,20 @@ img {
 
 #txt {
   width: 174px;
-  left: 31px;
+  left: 29px;
   top: 11px;
   /* outline: 1px yellow solid; */
 }
 #packs {
-  width: 146px;
-  left: 46px;
-  top: 216px;
+  width: 162px;
+  left: 39px;
+  top: 170px;
 }
 
 #male {
-  width: 135px;
-  left: 66px;
-  top: 187px;
+  width: 151px;
+  left: 62px;
+  top: 128px;
 }
 #tropical0 {
   width: 45px;
@@ -116,35 +116,45 @@ img {
   top: 320px;
 }
 #tropical {
-  width: 61px;
-  left: 27px;
-  top: 342px; 
+  width: 67px;
+  left: 19px;
+  top: 300px; 
 }
 #tropical2 {
-  width: 61px;
-  left: 145px;
-  top: 344px;
+  width: 67px;
+  left: 150px;
+  top: 303px;
   transform: rotate(-127deg);
 }
 
 #logos_cont {
-  width: 123px;
-  left: 65px;
-  top: 128px;
+  width: 61px;
+  left: 170px;
+  top: 115px;
   overflow: hidden;
   /* outline: 1px yellow solid; */
 }
 #logos {
-  width: 123px;
+  width: 61px;
   left: 0px;
   top: 0px;
 }
 
 #subslogan {
-  width: 76px;
-  left: 89px;
-  top: 170px;
+  width: 43px;
+  left: 190px;
+  top: 372px;
   /* outline: 1px yellow solid; */
+}
+#link {
+  width: 110px;
+  left: 7px;
+  top: 372px;
+}
+#qr {
+  width: 63px;
+  left: 125px;
+  top: 370px;
 }
 
 #schirm {

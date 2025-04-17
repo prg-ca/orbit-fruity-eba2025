@@ -42,10 +42,10 @@ img {
 }
 
 #circle_cont {
-  width: 80px;
-  height: 80px;
+  width: 76px;
+  height: 76px;
   left: 621px;
-  top: 5px;
+  top: 2px;
   /* outline: 1px yellow solid; */
   
 
@@ -101,8 +101,8 @@ img {
 }
 #packs {
   width: 92px;
-  left: 611px;
-  top: 9px;
+  left: 610px;
+  top: 11px;
 }
 
 #shoe {
@@ -126,7 +126,7 @@ img {
 
 #logos_cont {
   width: 136px;
-  left: 459px;
+  left: 449px;
   top: 15px;
   overflow: hidden;
   /* outline: 1px yellow solid; */
@@ -139,10 +139,23 @@ img {
 
 #subslogan {
   width: 85px;
-  left: 487px;
+  left: 477px;
   top: 63px;
   /* outline: 1px yellow solid; */
 }
+
+#qr {
+  width: 90px;
+  left: 612px;
+  top: 46px;
+}
+
+#link {
+  width: 120px;
+  left: 597px;
+  top: 24px;
+}
+
 
 #schirm {
   position: absolute;

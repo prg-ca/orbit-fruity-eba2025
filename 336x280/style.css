@@ -102,7 +102,7 @@ img {
 #packs {
   width: 158px;
   left: 169px;
-  top: 82px;
+  top: 92px;
 }
 
 #male {
@@ -116,13 +116,13 @@ img {
   top: 200px;
 }
 #tropical {
-  width: 65px;
-  left: 148px;
-  top: 218px;
+  width: 60px;
+  left: 154px;
+  top: 222px;
 }
 #tropical2 {
-  width: 65px;
-  left: 275px;
+  width: 60px;
+  left: 272px;
   top: 221px;
   transform: rotate(-127deg);
 }
@@ -146,6 +146,19 @@ img {
   top: 183px;
   /* outline: 1px yellow solid; */
 }
+
+#link {
+  width: 122px;
+  left: 15px;
+  top: 220px;
+}
+
+#qr {
+  width: 90px;
+  left: 15px;
+  top: 244px;
+}
+
 
 #schirm {
   position: absolute;
