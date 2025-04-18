@@ -1,0 +1,172 @@
+body,
+body * {
+  vertical-align: baseline;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 9pt;
+  font-weight: 700;
+  color: #00b6ed;
+}
+
+.container {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px #01016e solid;
+  /*top: 300px;*/
+  /*left: 600px;*/
+  background-color: #00b6ed;
+  background-size: cover;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.el {
+  position: absolute;
+  /*width: 60px;*/
+  left: 0;
+  top: 0;
+}
+
+#circle_cont {
+  width: 131px;
+  height: 131px;
+  left: 160px;
+  top: 64px;
+  /* outline: 1px yellow solid; */
+  
+
+  /* 
+
+  border-radius: 50%;
+  border: 6px white solid;
+  border-style: dashed;
+  stroke-dasharray: 1130px;
+  stroke-dashoffset: 282.6; */
+}
+
+#circle {
+  fill: transparent;
+  stroke: white;
+  stroke-width: 6;
+  stroke-dasharray: 565.2;
+  stroke-dashoffset: 565.2;
+  /* stroke-dashoffset: 0; */
+  transform-origin: 50% 50%;
+  transform: rotate(-45deg);
+  /* animation: draw 1s ease-out forwards; */
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 565.2;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes undraw {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset:  565.2;
+  }
+}
+
+#droplet {
+  width: 185px;
+  left: 6px;
+  top: -46px;
+}
+
+#txt {
+  width: 158px;
+  left: 15px;
+  top: 14px;
+  /* outline: 1px yellow solid; */
+}
+#packs {
+  width: 141px;
+  left: 151px;
+  top: 81px;
+}
+
+#male {
+  width: 129px;
+  left: 171px;
+  top: 46px;
+}
+#tropical0 {
+  width: 39px;
+  left:247px;
+  top: 179px;
+}
+#tropical {
+  width: 54px;
+  left: 137px;
+  top: 197px;
+}
+#tropical2 {
+  width: 54px;
+  left: 241px;
+  top: 200px;
+  transform: rotate(-127deg);
+}
+
+#logos_cont {
+  width: 97px;
+  left: 43px;
+  top: 129px;
+  overflow: hidden;
+  /* outline: 1px yellow solid; */
+}
+#logos {
+  width: 97px;
+  left: 0px;
+  top: 0px;
+}
+
+#subslogan {
+  width: 84px;
+  left: 46px;
+  top: 160px;
+  /* outline: 1px yellow solid; */
+}
+
+#link {
+  width: 111px;
+  left: 13px;
+  top: 196px;
+}
+
+#qr {
+  width: 96px;
+  left: 13px;
+  top: 218px;
+}
+
+#schirm {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  top: 0;
+  left: 0;
+  background-color: #00b6ed;
+  /*background-image: url("bg01.jpg");*/
+  background-size: cover;
+  opacity: 0;
+}

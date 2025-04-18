@@ -1,0 +1,170 @@
+body,
+body * {
+  vertical-align: baseline;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 9pt;
+  font-weight: 700;
+  color: #00b6ed;
+}
+
+.container {
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px #01016e solid;
+  /*top: 300px;*/
+  /*left: 600px;*/
+  background-color: #00b6ed;
+  background-size: cover;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.el {
+  position: absolute;
+  /*width: 60px;*/
+  left: 0;
+  top: 0;
+}
+
+#circle_cont {
+  width: 76px;
+  height: 76px;
+  left: 621px;
+  top: 2px;
+  /* outline: 1px yellow solid; */
+  
+
+  /* 
+
+  border-radius: 50%;
+  border: 6px white solid;
+  border-style: dashed;
+  stroke-dasharray: 1130px;
+  stroke-dashoffset: 282.6; */
+}
+
+#circle {
+  fill: transparent;
+  stroke: white;
+  stroke-width: 6;
+  stroke-dasharray: 565.2;
+  stroke-dashoffset: 565.2;
+  /* stroke-dashoffset: 0; */
+  transform-origin: 50% 50%;
+  transform: rotate(-45deg);
+  /* animation: draw 1s ease-out forwards; */
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 565.2;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes undraw {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset:  565.2;
+  }
+}
+
+#droplet {
+  width: 185px;
+  left: 20px;
+  top: -43px;
+}
+
+#txt {
+  width: 148px;
+  left: 38px;
+  top: 8px;
+  /* outline: 1px yellow solid; */
+}
+#packs {
+  width: 92px;
+  left: 610px;
+  top: 11px;
+}
+
+#shoe {
+  width: 107px;
+  left:287px;
+  top: 3px;
+}
+
+#tropical {
+  width: 71px;
+  left: 217px;
+  top: 37px;
+  transform: rotate(29deg);
+}
+#tropical2 {
+  width: 66px;
+  left: 378px;
+  top: 16px;
+  transform: rotate(137deg);
+}
+
+#logos_cont {
+  width: 136px;
+  left: 449px;
+  top: 15px;
+  overflow: hidden;
+  /* outline: 1px yellow solid; */
+}
+#logos {
+  width: 136px;
+  left: 0px;
+  top: 0px;
+}
+
+#subslogan {
+  width: 105px;
+  left: 466px;
+  top: 63px;
+  /* outline: 1px yellow solid; */
+}
+
+#qr {
+  width: 110px;
+  left: 602px;
+  top: 49px;
+}
+
+#link {
+  width: 120px;
+  left: 597px;
+  top: 24px;
+}
+
+
+#schirm {
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  top: 0;
+  left: 0;
+  background-color: #00b6ed;
+  /*background-image: url("bg01.jpg");*/
+  background-size: cover;
+  opacity: 0;
+}
